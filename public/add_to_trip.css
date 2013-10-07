@@ -1,0 +1,25 @@
+.place-name {
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.place-details {
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.place-description {
+    float: left;
+    overflow: hidden;
+    width: 49%;
+    padding-left: 5px;
+}
+
+.extras {
+    float: left;
+    overflow: hidden;
+    width: 49%;
+    padding-left: 5px;
+}

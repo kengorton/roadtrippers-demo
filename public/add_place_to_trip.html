@@ -8,9 +8,10 @@
 
   <script type="text/javascript">
     (function() {
-      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-      po.src = 'https://stage.roadtrippers.com/plugin/addToTrip.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      //var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+      //po.src = 'https://stage.roadtrippers.com/plugin/addToTrip.js';
+      //var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      return;
     })();
   </script>
 
@@ -63,7 +64,23 @@
     Add this awesome place to your awesome trip!!
     <br>
     <br>
-    <div class='rt-add-to-trip' data-target-type='place' data-target-id='518a681454b9723add003f16' data-partner-id=1></div>
+    <a href="https://stage.roadtrippers.com/places/4f22f7c67040c2000100000a" class="rt-add-link"
+       data-target-type="place" data-target-id="4f22f7c67040c2000100000a" data-partner-id="1"
+       data-height="35" data-width="150">Blue Swallow Motel</a>
+    <a href="https://stage.roadtrippers.com/places/4f5fa66f46d09d482c000145" class="rt-add-link"
+       data-target-type="place" data-target-id="4f5fa66f46d09d482c000145" data-partner-id="1"
+       data-height="35" data-width="150">Cincinnatian Hotel</a>
+    <script>
+      !function(d,s,id){
+        var js, a = d.querySelectorAll('a.rt-add-link');
+        if(!d.getElementById(id) && a.length > 0){
+          js=d.createElement(s);
+          js.src="https://oregon.roadtrippers.com/assets/plugin/add.js";
+          a[0].parentNode.insertBefore(js,a);
+        }
+      }(document,"script","rt-add-widget");
+    </script>
+
     <br>
     <br>
     Haxx0r ipsum class linux pragma stdio.h packet ban shell fatal salt semaphore. Wombat bang protocol new suitably small values perl hack the mainframe hello world man pages mainframe leapfrog try catch segfault bypass continue vi. Firewall syn private worm todo int fail piggyback emacs epoch foo access system win malloc mailbomb daemon James T. Kirk. Wabbit printf tunnel in I'm compiling bubble sort January 1, 1970 server wannabee default tarball public boolean less function deadlock finally gc ip. Irc brute force gobble memory leak flush false /dev/null ascii script kiddies. Lib lib concurrently interpreter gurfle pwned spoof unix ssh data I'm sorry Dave, I'm afraid I can't do that. Warez hash all your base are belong to us big-endian recursively headers port xss. Strlen machine code giga tcp ctl-c then break cd regex long ddos infinite loop.
